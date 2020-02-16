@@ -1,7 +1,7 @@
 <template>
   <div>
     <main-page />
-    <about-page />
+    <about-component />
     <skill-page />
     <project-page />
     <contact-page />
@@ -10,7 +10,7 @@
 
 <script>
 import MainPage from '@/components/main/MainPage'
-import AboutPage from '@/components/about/AboutPage'
+import AboutComponent from '@/components/about/AboutComponent'
 import SkillPage from '@/components/skill/SkillPage'
 import ProjectPage from '@/components/project/ProjectPage'
 import ContactPage from '@/components/contact/ContactPage'
@@ -18,7 +18,7 @@ import ContactPage from '@/components/contact/ContactPage'
 export default {
   components: {
     MainPage,
-    AboutPage,
+    AboutComponent,
     SkillPage,
     ProjectPage,
     ContactPage
