@@ -1,5 +1,5 @@
 <template>
-  <div class="bg">
+  <div class="bg bgSky">
     <div class="container">
       <h1 class="aboutTitle">About Me</h1>
       <div class="aboutContent">
@@ -27,14 +27,6 @@ export default {}
 <style scoped>
 .bg {
   height: 600px;
-  background-color: #6cd6e3;
-}
-
-.container {
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 900px;
 }
 
 .aboutTitle {
@@ -44,7 +36,7 @@ export default {}
 
 .aboutContent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .marginTop {

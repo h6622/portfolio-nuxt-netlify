@@ -1,27 +1,24 @@
 <template>
   <div>
-    <main-page />
+    <home-component />
     <about-component />
-    <skill-page />
-    <project-page />
-    <contact-page />
+    <skill-component />
+    <contact-component />
   </div>
 </template>
 
 <script>
-import MainPage from '@/components/main/MainPage'
+import HomeComponent from '@/components/home/HomeComponent'
 import AboutComponent from '@/components/about/AboutComponent'
-import SkillPage from '@/components/skill/SkillPage'
-import ProjectPage from '@/components/project/ProjectPage'
-import ContactPage from '@/components/contact/ContactPage'
+import SkillComponent from '@/components/skill/SkillComponent'
+import ContactComponent from '@/components/contact/ContactComponent'
 
 export default {
   components: {
-    MainPage,
+    HomeComponent,
     AboutComponent,
-    SkillPage,
-    ProjectPage,
-    ContactPage
+    SkillComponent,
+    ContactComponent
   }
 }
 </script>
