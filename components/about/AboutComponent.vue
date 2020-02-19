@@ -5,16 +5,12 @@
       <div class="aboutContent">
         <img src="http://placehold.it/250x250" />
         <div>
-          <div>
-            content1
-          </div>
+          <div>content1</div>
           <div class="marginTop">content2</div>
         </div>
       </div>
       <div class="viewMore">
-        <nuxt-link to="about" class="viewMoreBtn">
-          View More
-        </nuxt-link>
+        <nuxt-link to="about" class="viewMoreBtn">View More</nuxt-link>
       </div>
     </div>
   </div>
@@ -28,13 +24,6 @@ export default {}
 .bg {
   height: 600px;
   background-color: #6cd6e3;
-}
-
-.container {
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 900px;
 }
 
 .aboutTitle {
