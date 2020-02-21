@@ -3,7 +3,7 @@
     <div>title</div>
     <div>
       <ul v-for="item in menuItems" :key="item" class="menuItems">
-        <li class="menuItem">{{ item }}</li>
+        <li class="menuItem" @click="onClickButton(item)">{{ item }}</li>
       </ul>
     </div>
   </div>
@@ -13,6 +13,36 @@ export default {
   data() {
     return {
       menuItems: ['Home', 'About', 'Skill', 'Project', 'Contact']
+    }
+  },
+  methods: {
+    onClickButton(item) {
+      if (item === 'Home') {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        })
+      } else if (item === 'About') {
+        window.scrollTo({
+          top: 600,
+          behavior: 'smooth'
+        })
+      } else if (item === 'Skill') {
+        window.scrollTo({
+          top: 1300,
+          behavior: 'smooth'
+        })
+      } else if (item === 'Project') {
+        window.scrollTo({
+          top: 1717,
+          behavior: 'smooth'
+        })
+      } else {
+        window.scrollTo({
+          top: 1717,
+          behavior: 'smooth'
+        })
+      }
     }
   }
 }
@@ -32,5 +62,9 @@ export default {
 
 .menuItems {
   float: left;
+}
+
+.thisScroll {
+  scroll-behavior: smooth;
 }
 </style>

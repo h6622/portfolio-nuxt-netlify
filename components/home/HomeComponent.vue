@@ -16,7 +16,7 @@ export default {}
 .thisContainer {
   /* 임시값 */
   width: 100%;
-  height: 500px;
+  height: 700px;
   background: linear-gradient(rgba(20, 20, 20, 0.05), rgba(20, 20, 20, 0.2)),
     url('~assets/images/bg.jpg');
   background-size: cover;

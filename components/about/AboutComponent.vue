@@ -22,7 +22,7 @@ export default {}
 
 <style scoped>
 .bg {
-  height: 600px;
+  height: 700px;
   background-color: #6cd6e3;
 }
 

@@ -7,7 +7,11 @@
         </div>
       </div>
 
-      <div class="skillDFlex">test</div>
+      <div class="thisDFlex">
+        <div v-for="item in items" :key="item">
+          <img src="http://placehold.it/100x100" alt="img" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -25,11 +29,11 @@ export default {
 <style scoped>
 .thisContainer {
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .thisDFlex {
-  height: 250px;
+  height: 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
