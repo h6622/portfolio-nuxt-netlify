@@ -1,14 +1,14 @@
 <template>
-  <div class="h1080">
-    <div class="bgSky d-flex PY3">
-      <div class="container bgSky">
+  <div class="h1080 bgSky">
+    <div class="bgCharcoal d-flex PY3">
+      <div class="container">
         <div class="d-flex">
           <div>
-            <img src="http://placehold.it/150X150" />
+            <img src="http://placehold.it/213X213" />
           </div>
-          <div class="MX1">
+          <div class="MX2 colorWhite open">
             fullstack developer<br />
-            Sung-Hyun Hong<br />
+            <span class="name">Sung-Hyun Hong</span><br />
             Content<br />
             Content<br />
             Content<br />
@@ -20,6 +20,12 @@
         </div>
       </div>
     </div>
+    <div class="PY3">
+      <div class="d-flex justify-center">
+        <div>icon</div>
+        <div class="MX1">desc</div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -28,9 +34,8 @@ export default {}
 </script>
 
 <style scoped>
-.title {
-  font-family: 'Open Sans';
-  font-size: 2rem;
+.name {
   font-weight: bold;
+  font-size: 3rem;
 }
 </style>

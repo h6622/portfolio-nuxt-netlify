@@ -1,21 +1,17 @@
 <template>
-  <div class="footerContainer bgCharcoal">
-    <p class="footerContent">
+  <div class="d-flex justify-center align-center bgCharcoal height">
+    <p class="footer colorWhite">
       Copyright ⓒ 2020 Portfolio <span class="textBold">Designed by h662</span>
     </p>
   </div>
 </template>
 
 <style scoped>
-.footerContainer {
+.height {
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.footerContent {
+.footer {
   font-size: 12px;
-  color: white;
 }
 </style>

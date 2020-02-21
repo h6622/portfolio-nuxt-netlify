@@ -59,7 +59,7 @@ export default {
   font-weight: bold;
 }
 
-.textWhite {
+.colorWhite {
   color: white;
 }
 
@@ -67,20 +67,32 @@ export default {
   color: #343b41;
 }
 
-.bgCharcoal {
-  background-color: #343b41;
-}
-
 .colorSky {
   color: #6cd6e3;
+}
+
+.colorGray {
+  color: #9ea0a3;
+}
+
+.bgCharcoal {
+  background-color: #343b41;
 }
 
 .bgSky {
   background-color: #6cd6e3;
 }
 
+.bgGray {
+  background-color: #9ea0a3;
+}
+
 .lac {
   font-family: 'Lacquer';
+}
+
+.open {
+  font-family: 'Open Sans';
 }
 
 .MB1 {
@@ -95,6 +107,11 @@ export default {
 .MY1 {
   margin-bottom: 1rem;
   margin-top: 1rem;
+}
+
+.MX2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .MX5 {

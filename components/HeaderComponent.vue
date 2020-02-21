@@ -13,7 +13,7 @@
 export default {
   data() {
     return {
-      menuItems: ['Home', 'About', 'Skill', 'Project', 'Contact']
+      menuItems: ['Home', 'About', 'Contact']
     }
   },
   methods: {
@@ -28,19 +28,9 @@ export default {
           top: 1080,
           behavior: 'smooth'
         })
-      } else if (item === 'Skill') {
-        window.scrollTo({
-          top: 2160,
-          behavior: 'smooth'
-        })
-      } else if (item === 'Project') {
-        window.scrollTo({
-          top: 3240,
-          behavior: 'smooth'
-        })
       } else if (item === 'Contact') {
         window.scrollTo({
-          top: 4320,
+          top: 2160,
           behavior: 'smooth'
         })
       }
