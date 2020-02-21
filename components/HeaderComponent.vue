@@ -3,20 +3,21 @@
     <div>title</div>
     <div>
       <ul v-for="item in menuItems" :key="item" class="menuItems">
-        <li class="menuItem" @click="onClickButton(item)">{{ item }}</li>
+        <li class="menuItem" @click="onClick(item)">{{ item }}</li>
       </ul>
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data() {
     return {
-      menuItems: ['Home', 'About', 'Skill', 'Project', 'Contact']
+      menuItems: ['Home', 'About', 'Project', 'Contact']
     }
   },
   methods: {
-    onClickButton(item) {
+    onClick(item) {
       if (item === 'Home') {
         window.scrollTo({
           top: 0,
@@ -24,22 +25,17 @@ export default {
         })
       } else if (item === 'About') {
         window.scrollTo({
-          top: 600,
-          behavior: 'smooth'
-        })
-      } else if (item === 'Skill') {
-        window.scrollTo({
-          top: 1300,
+          top: 1080,
           behavior: 'smooth'
         })
       } else if (item === 'Project') {
         window.scrollTo({
-          top: 1717,
+          top: 3240,
           behavior: 'smooth'
         })
-      } else {
+      } else if (item === 'Contact') {
         window.scrollTo({
-          top: 1717,
+          top: 4320,
           behavior: 'smooth'
         })
       }
@@ -47,6 +43,7 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 .navBar {
   position: fixed;
@@ -55,16 +52,12 @@ export default {
   padding-top: 30px;
 }
 
-.menuItem {
-  list-style-type: none;
-  margin: 10px;
-}
-
 .menuItems {
   float: left;
 }
 
-.thisScroll {
-  scroll-behavior: smooth;
+.menuItem {
+  list-style-type: none;
+  margin-left: 10px;
 }
 </style>

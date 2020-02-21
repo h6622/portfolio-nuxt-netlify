@@ -1,12 +1,17 @@
 <template>
-  <div class="thisContainer bgSky">
+  <div class="contactContainer bgGray">
     <div class="container thisWidth">
-      <p style="text-align:center; margin-bottom: 40px">Contact</p>
       <div class="thisDFlex">
-        <input id type="text" value="name" name />
-        <input id type="text" value="e-mail" name />
+        <input id="" type="text" name="" />
+        <input id="" type="text" name="" />
       </div>
-      <textarea id name cols="30" rows="10" class="thisTextArea"></textarea>
+      <textarea
+        id=""
+        name=""
+        cols="30"
+        rows="10"
+        class="thisTextArea"
+      ></textarea>
     </div>
   </div>
 </template>
@@ -16,7 +21,7 @@ export default {}
 </script>
 
 <style scoped>
-.thisContainer {
+.contactContainer {
   width: 100%;
   height: 400px;
 }

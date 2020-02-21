@@ -1,9 +1,11 @@
 <template>
-  <div class="thisContainer">
-    <div class="container thisStyle">
-      <h1 class="textCenter">Portfolio</h1>
-      <h1 class="textCenter">This is....</h1>
-      <h1 class="textCenter">button</h1>
+  <div class="homeBg h1080 d-flex align-center">
+    <div class="container">
+      <div class="textCenter title lac MB1">Portfolio</div>
+      <div class="textCenter lac">This Page is created by Vue.js</div>
+      <div class="textCenter MY5">
+        <a class="btn">View More</a>
+      </div>
     </div>
   </div>
 </template>
@@ -13,16 +15,16 @@ export default {}
 </script>
 
 <style scoped>
-.thisContainer {
-  /* 임시값 */
-  width: 100%;
-  height: 700px;
-  background: linear-gradient(rgba(20, 20, 20, 0.05), rgba(20, 20, 20, 0.2)),
+.homeBg {
+  background: linear-gradient(
+      rgba(100, 100, 100, 0.05),
+      rgba(100, 100, 100, 0.5)
+    ),
     url('~assets/images/bg.jpg');
   background-size: cover;
 }
 
-.thisStyle {
-  padding: 180px 0;
+.title {
+  font-size: 3rem;
 }
 </style>
