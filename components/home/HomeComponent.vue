@@ -1,9 +1,11 @@
 <template>
-  <div class="homeContainer">
-    <div class="container homeStyle">
-      <h1 class="textCenter">Portfilo</h1>
-      <h2 class="textCenter">This is my portfolio</h2>
-      <h3 class="textCenter">button</h3>
+  <div class="homeBg h1080 d-flex align-center">
+    <div class="container">
+      <div class="textCenter title lac MB1">Portfolio</div>
+      <div class="textCenter lac">This Page is created by Vue.js</div>
+      <div class="textCenter MY5">
+        <a class="btn">View More</a>
+      </div>
     </div>
   </div>
 </template>
@@ -13,9 +15,7 @@ export default {}
 </script>
 
 <style scoped>
-.homeContainer {
-  width: 100%;
-  height: 500px;
+.homeBg {
   background: linear-gradient(
       rgba(100, 100, 100, 0.05),
       rgba(100, 100, 100, 0.5)
@@ -24,7 +24,7 @@ export default {}
   background-size: cover;
 }
 
-.homeStyle {
-  padding: 180px 0;
+.title {
+  font-size: 3rem;
 }
 </style>

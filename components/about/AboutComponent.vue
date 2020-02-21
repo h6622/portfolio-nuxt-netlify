@@ -1,10 +1,12 @@
 <template>
-  <div class="bg bgSky">
+  <div class="h1080 bgSky d-flex align-center">
     <div class="container">
-      <h1 class="aboutTitle">About Me</h1>
-      <div class="aboutContent">
-        <img src="http://placehold.it/250x250" />
-        <div>
+      <div class="title  d-flex justify-center PY5">About Me</div>
+      <div class="d-flex justify-center">
+        <img src="http://placehold.it/100X100" class="MY5" />
+      </div>
+      <div class="d-flex justify-center">
+        <div class="MX5">
           <div>
             content1
           </div>
@@ -12,9 +14,9 @@
         </div>
       </div>
       <div class="viewMore">
-        <nuxt-link to="about" class="viewMoreBtn">
+        <a to="about" class="btn">
           View More
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </div>
@@ -25,39 +27,9 @@ export default {}
 </script>
 
 <style scoped>
-.bg {
-  height: 600px;
-}
-
-.aboutTitle {
-  padding: 70px 0;
-  text-align: center;
-}
-
-.aboutContent {
-  display: flex;
-  justify-content: space-between;
-}
-
-.marginTop {
-  margin-top: 100px;
-}
-
-.viewMore {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-}
-
-.viewMoreBtn {
-  font-size: 20px;
-  background-color: #424954;
-  color: #6cd6e3;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-
-a {
-  text-decoration: none;
+.title {
+  font-family: 'Open Sans';
+  font-size: 2rem;
+  font-weight: bold;
 }
 </style>
