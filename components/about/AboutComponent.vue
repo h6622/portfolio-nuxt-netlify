@@ -1,22 +1,23 @@
 <template>
-  <div class="h1080 bgSky d-flex align-center">
-    <div class="container">
-      <div class="title  d-flex justify-center PY5">About Me</div>
-      <div class="d-flex justify-center">
-        <img src="http://placehold.it/100X100" class="MY5" />
-      </div>
-      <div class="d-flex justify-center">
-        <div class="MX5">
+  <div class="h1080">
+    <div class="bgSky d-flex PY3">
+      <div class="container bgSky">
+        <div class="d-flex">
           <div>
-            content1
+            <img src="http://placehold.it/150X150" />
           </div>
-          <div class="marginTop">content2</div>
+          <div class="MX1">
+            fullstack developer<br />
+            Sung-Hyun Hong<br />
+            Content<br />
+            Content<br />
+            Content<br />
+            <div class="MY1">
+              <a to="about" class="btn"> Resume </a>
+              <a to="about" class="btn MX1"> 이력서 </a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="viewMore">
-        <a to="about" class="btn">
-          View More
-        </a>
       </div>
     </div>
   </div>

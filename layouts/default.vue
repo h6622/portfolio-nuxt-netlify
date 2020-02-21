@@ -87,6 +87,16 @@ export default {
   margin-bottom: 1rem;
 }
 
+.MX1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.MY1 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 .MX5 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -95,6 +105,11 @@ export default {
 .MY5 {
   margin-bottom: 5rem;
   margin-top: 5rem;
+}
+
+.PY3 {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 .PY5 {
@@ -106,7 +121,7 @@ export default {
   font-size: 20px;
   background-color: #424954;
   color: #6cd6e3;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
 }
 </style>
